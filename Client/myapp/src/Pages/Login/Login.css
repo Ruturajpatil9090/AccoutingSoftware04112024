@@ -1,0 +1,106 @@
+.login-container {            
+  border-radius: 5px;
+  background-color: #fcfcfc8a;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;  
+  margin-top: 150px;      
+}
+.login-container img {
+  margin-bottom: 20px;
+  border-radius: 50%;
+  width: 10%;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.form-control {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.developed-by {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.developed-by a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.developed-by a:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.eye-icon {
+  cursor: pointer;
+}
+
+.password-input-container {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.password-input-container input {
+  width: calc(100% - 40px); /* Adjusted for icon */
+  padding-right: 30px; 
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: #888;
+}
+
+.Login-button {
+  background-color: #08723d; /* Green background */
+  color: #ffffff; /* White text color for contrast */
+  padding: 12px 24px; /* Adjusted padding for a better look */
+  border: none;
+  border-radius: 25px; /* Rounded corners */
+  cursor: pointer;
+  width: 100%; /* Full width to fit the container */
+  max-width: 300px; /* Limit the max width for larger screens */
+  margin: 20px auto; /* Center the button with automatic left and right margins */
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  font-weight: bold; /* Set bold text */
+  font-size: 16px; /* Adjust font size */
+}
+
+.Login-button:hover {
+  background-color: #057229; /* Darker green on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+
